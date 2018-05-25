@@ -1,0 +1,1453 @@
+Apache Maven 3.5.3 (3383c37e1f9e9b3bc3df5050c29c8aff9f295297; 2018-02-24T16:49:05-03:00)
+Maven home: C:\apache-maven-3.5.3\bin\..
+Java version: 1.8.0_161, vendor: Oracle Corporation
+Java home: C:\Program Files\Java\jdk1.8.0_161\jre
+Default locale: pt_BR, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\apache-maven-3.5.3\bin\..\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\donini\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\apache-maven-3.5.3\bin\..\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\donini\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\donini\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\donini\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Using mirror internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/) for central (https://repo.maven.apache.org/maven2).
+[DEBUG] Extension realms for project br.com.control.version:control-version:jar:0.0.12-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Resolving plugin prefix release from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Using mirror internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/) for apache.snapshots (https://repository.apache.org/snapshots).
+[DEBUG] Using mirror internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Resolved plugin prefix release to org.apache.maven.plugins:maven-release-plugin from POM br.com.control.version:control-version:jar:0.0.12-SNAPSHOT
+[DEBUG] Resolving plugin prefix release from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix release to org.apache.maven.plugins:maven-release-plugin from POM br.com.control.version:control-version:jar:0.0.12-SNAPSHOT
+[DEBUG] Resolving plugin prefix release from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix release to org.apache.maven.plugins:maven-release-plugin from POM br.com.control.version:control-version:jar:0.0.12-SNAPSHOT
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: br.com.control.version:control-version:jar:0.0.12-SNAPSHOT
+[DEBUG] Tasks:   [release:clean, release:prepare, release:perform]
+[DEBUG] Style:   Aggregating
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ---------------< br.com.control.version:control-version >---------------
+[INFO] Building control-version 0.0.12-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Resolving plugin prefix release from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix release to org.apache.maven.plugins:maven-release-plugin from POM br.com.control.version:control-version:jar:0.0.12-SNAPSHOT
+[DEBUG] Resolving plugin prefix release from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix release to org.apache.maven.plugins:maven-release-plugin from POM br.com.control.version:control-version:jar:0.0.12-SNAPSHOT
+[DEBUG] Resolving plugin prefix release from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix release to org.apache.maven.plugins:maven-release-plugin from POM br.com.control.version:control-version:jar:0.0.12-SNAPSHOT
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       br.com.control.version:control-version:0.0.12-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): []
+[DEBUG] Repositories (dependencies): [internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/, default, releases)]
+[DEBUG] Repositories (plugins)     : [internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-release-plugin:2.5.3:clean (default-cli)
+[DEBUG] Style:         Aggregating
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <arguments>${arguments}</arguments>
+  <basedir default-value="${basedir}"/>
+  <javaHome default-value="${java.home}"/>
+  <localRepoDirectory default-value="${maven.repo.local}"/>
+  <mavenExecutorId default-value="invoker">${mavenExecutorId}</mavenExecutorId>
+  <mavenHome default-value="${maven.home}"/>
+  <pomFileName>${pomFileName}</pomFileName>
+  <project default-value="${project}"/>
+  <reactorProjects default-value="${reactorProjects}"/>
+  <session default-value="${session}"/>
+  <settings default-value="${settings}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-release-plugin:2.5.3:prepare (default-cli)
+[DEBUG] Style:         Aggregating
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addSchema default-value="true">${addSchema}</addSchema>
+  <allowReleasePluginSnapshot default-value="false">${allowReleasePluginSnapshot}</allowReleasePluginSnapshot>
+  <allowTimestampedSnapshots default-value="false">${ignoreSnapshots}</allowTimestampedSnapshots>
+  <arguments>${arguments}</arguments>
+  <autoVersionSubmodules default-value="false">true</autoVersionSubmodules>
+  <basedir default-value="${basedir}"/>
+  <checkModificationExcludeList>${checkModificationExcludeList}</checkModificationExcludeList>
+  <commitByProject default-value="false">${commitByProject}</commitByProject>
+  <completionGoals default-value="">${completionGoals}</completionGoals>
+  <developmentVersion>${developmentVersion}</developmentVersion>
+  <dryRun default-value="false">${dryRun}</dryRun>
+  <generateReleasePoms default-value="false">${generateReleasePoms}</generateReleasePoms>
+  <javaHome default-value="${java.home}"/>
+  <localRepoDirectory default-value="${maven.repo.local}"/>
+  <mavenExecutorId default-value="invoker">${mavenExecutorId}</mavenExecutorId>
+  <mavenHome default-value="${maven.home}"/>
+  <password>${password}</password>
+  <pomFileName>${pomFileName}</pomFileName>
+  <preparationGoals default-value="clean verify">${preparationGoals}</preparationGoals>
+  <project default-value="${project}"/>
+  <projectVersionPolicyId default-value="default">${projectVersionPolicyId}</projectVersionPolicyId>
+  <pushChanges default-value="true">${pushChanges}</pushChanges>
+  <reactorProjects default-value="${reactorProjects}"/>
+  <releaseVersion>${releaseVersion}</releaseVersion>
+  <remoteTagging default-value="true">${remoteTagging}</remoteTagging>
+  <resume default-value="true">${resume}</resume>
+  <scmCommentPrefix default-value="[maven-release-plugin] ">${scmCommentPrefix}</scmCommentPrefix>
+  <session default-value="${session}"/>
+  <settings default-value="${settings}"/>
+  <suppressCommitBeforeTag default-value="false">${suppressCommitBeforeTag}</suppressCommitBeforeTag>
+  <tag>0.0.11</tag>
+  <tagBase>${tagBase}</tagBase>
+  <tagNameFormat default-value="@{project.artifactId}-@{project.version}">0.0.12-SNAPSHOT</tagNameFormat>
+  <updateDependencies default-value="true">${updateDependencies}</updateDependencies>
+  <updateWorkingCopyVersions default-value="true">${updateWorkingCopyVersions}</updateWorkingCopyVersions>
+  <useEditMode default-value="false">${useEditMode}</useEditMode>
+  <username>${username}</username>
+  <waitBeforeTagging default-value="0">${waitBeforeTagging}</waitBeforeTagging>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-release-plugin:2.5.3:perform (default-cli)
+[DEBUG] Style:         Aggregating
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <arguments>${arguments}</arguments>
+  <basedir default-value="${basedir}"/>
+  <connectionUrl>${connectionUrl}</connectionUrl>
+  <dryRun default-value="false">${dryRun}</dryRun>
+  <goals>${goals}</goals>
+  <javaHome default-value="${java.home}"/>
+  <localCheckout default-value="false">${localCheckout}</localCheckout>
+  <localRepoDirectory default-value="${maven.repo.local}"/>
+  <mavenExecutorId default-value="invoker">${mavenExecutorId}</mavenExecutorId>
+  <mavenHome default-value="${maven.home}"/>
+  <password>${password}</password>
+  <pomFileName>${pomFileName}</pomFileName>
+  <project default-value="${project}"/>
+  <reactorProjects default-value="${reactorProjects}"/>
+  <releaseProfiles>releases</releaseProfiles>
+  <session default-value="${session}"/>
+  <settings default-value="${settings}"/>
+  <useReleaseProfile default-value="true">${useReleaseProfile}</useReleaseProfile>
+  <username>${username}</username>
+  <workingDirectory default-value="${project.build.directory}/checkout">${workingDirectory}</workingDirectory>
+</configuration>
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] --- maven-release-plugin:2.5.3:clean (default-cli) @ control-version ---
+[DEBUG] Using mirror internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/) for apache.snapshots (https://repository.apache.org/content/groups/snapshots-group/).
+[DEBUG] Using mirror internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/) for apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Using mirror internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/) for snapshots (http://snapshots.maven.codehaus.org/maven2).
+[DEBUG] Using mirror internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/) for apache.snapshots (http://cvs.apache.org/maven-snapshot-repository).
+[DEBUG] Using mirror internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Using mirror internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/) for central (http://repo1.maven.org/maven2).
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1979804, ConflictMarker.markTime=1084900, ConflictMarker.nodeCount=315, ConflictIdSorter.graphTime=5439448, ConflictIdSorter.topsortTime=870837, ConflictIdSorter.conflictIdCount=77, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=15079189, ConflictResolver.conflictItemCount=206, DefaultDependencyCollector.collectTime=964237343, DefaultDependencyCollector.transformTime=28896247}
+[DEBUG] org.apache.maven.plugins:maven-release-plugin:jar:2.5.3:
+[DEBUG]    org.apache.maven.plugins:maven-scm-plugin:jar:1.8.1:runtime
+[DEBUG]       org.apache.maven.scm:maven-scm-manager-plexus:jar:1.8.1:runtime
+[DEBUG]       org.apache.maven.scm:maven-scm-providers-standard:pom:1.8.1:runtime
+[DEBUG]          org.apache.maven.scm:maven-scm-provider-accurev:jar:1.8.1:runtime
+[DEBUG]          org.apache.maven.scm:maven-scm-provider-bazaar:jar:1.8.1:runtime
+[DEBUG]             regexp:regexp:jar:1.3:runtime
+[DEBUG]          org.apache.maven.scm:maven-scm-provider-clearcase:jar:1.8.1:runtime
+[DEBUG]          org.apache.maven.scm:maven-scm-provider-cvsexe:jar:1.8.1:runtime
+[DEBUG]             org.apache.maven.scm:maven-scm-provider-cvs-commons:jar:1.8.1:runtime
+[DEBUG]          org.apache.maven.scm:maven-scm-provider-cvsjava:jar:1.8.1:runtime
+[DEBUG]             org.netbeans.lib:cvsclient:jar:20060125:runtime
+[DEBUG]             ch.ethz.ganymed:ganymed-ssh2:jar:build210:runtime
+[DEBUG]          org.apache.maven.scm:maven-scm-provider-gitexe:jar:1.8.1:runtime
+[DEBUG]             org.apache.maven.scm:maven-scm-provider-git-commons:jar:1.8.1:runtime
+[DEBUG]          org.apache.maven.scm:maven-scm-provider-hg:jar:1.8.1:runtime
+[DEBUG]          org.apache.maven.scm:maven-scm-provider-perforce:jar:1.8.1:runtime
+[DEBUG]          org.apache.maven.scm:maven-scm-provider-starteam:jar:1.8.1:runtime
+[DEBUG]          org.apache.maven.scm:maven-scm-provider-svnexe:jar:1.8.1:runtime
+[DEBUG]          org.apache.maven.scm:maven-scm-provider-synergy:jar:1.8.1:runtime
+[DEBUG]          org.apache.maven.scm:maven-scm-provider-vss:jar:1.8.1:runtime
+[DEBUG]          org.apache.maven.scm:maven-scm-provider-tfs:jar:1.8.1:runtime
+[DEBUG]          org.apache.maven.scm:maven-scm-provider-integrity:jar:1.8.1:runtime
+[DEBUG]             com.mks.api:mksapi-jar:jar:4.10.9049:runtime
+[DEBUG]             org.codehaus.groovy:groovy-all:jar:1.7.6:runtime
+[DEBUG]          org.apache.maven.scm:maven-scm-provider-jazz:jar:1.8.1:runtime
+[DEBUG]             org.mockito:mockito-core:jar:1.9.5:runtime
+[DEBUG]                org.hamcrest:hamcrest-core:jar:1.1:runtime
+[DEBUG]                org.objenesis:objenesis:jar:1.0:runtime
+[DEBUG]       org.apache.maven.scm:maven-scm-provider-local:jar:1.8.1:runtime
+[DEBUG]       org.apache.maven.scm:maven-scm-provider-svn-commons:jar:1.8.1:compile
+[DEBUG]       org.apache.maven.shared:file-management:jar:1.2.1:runtime
+[DEBUG]          org.apache.maven.shared:maven-shared-io:jar:1.1:runtime
+[DEBUG]             org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-6:runtime
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.release:maven-release-manager:jar:2.5.3:compile
+[DEBUG]       org.apache.maven.release:maven-release-api:jar:2.5.3:compile
+[DEBUG]          org.eclipse.aether:aether-util:jar:1.0.0.v20140518:compile
+[DEBUG]             org.eclipse.aether:aether-api:jar:1.0.0.v20140518:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven.shared:maven-invoker:jar:2.2:compile
+[DEBUG]          org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       commons-lang:commons-lang:jar:2.4:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.2:compile
+[DEBUG]       commons-io:commons-io:jar:2.2:compile
+[DEBUG]       jaxen:jaxen:jar:1.1-beta-8:runtime
+[DEBUG]          jdom:jdom:jar:1.0:runtime
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]       org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.scm:maven-scm-api:jar:1.9.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.15:compile
+[DEBUG]    org.jdom:jdom:jar:1.1:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-release-plugin:2.5.3
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-release-plugin:2.5.3
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-release-plugin:2.5.3
+[DEBUG]   Included: org.apache.maven.plugins:maven-release-plugin:jar:2.5.3
+[DEBUG]   Included: org.apache.maven.plugins:maven-scm-plugin:jar:1.8.1
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-manager-plexus:jar:1.8.1
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-providers-standard:pom:1.8.1
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-accurev:jar:1.8.1
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-bazaar:jar:1.8.1
+[DEBUG]   Included: regexp:regexp:jar:1.3
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-clearcase:jar:1.8.1
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-cvsexe:jar:1.8.1
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-cvs-commons:jar:1.8.1
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-cvsjava:jar:1.8.1
+[DEBUG]   Included: org.netbeans.lib:cvsclient:jar:20060125
+[DEBUG]   Included: ch.ethz.ganymed:ganymed-ssh2:jar:build210
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-gitexe:jar:1.8.1
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-git-commons:jar:1.8.1
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-hg:jar:1.8.1
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-perforce:jar:1.8.1
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-starteam:jar:1.8.1
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-svnexe:jar:1.8.1
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-synergy:jar:1.8.1
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-vss:jar:1.8.1
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-tfs:jar:1.8.1
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-integrity:jar:1.8.1
+[DEBUG]   Included: com.mks.api:mksapi-jar:jar:4.10.9049
+[DEBUG]   Included: org.codehaus.groovy:groovy-all:jar:1.7.6
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-jazz:jar:1.8.1
+[DEBUG]   Included: org.mockito:mockito-core:jar:1.9.5
+[DEBUG]   Included: org.hamcrest:hamcrest-core:jar:1.1
+[DEBUG]   Included: org.objenesis:objenesis:jar:1.0
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-local:jar:1.8.1
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-svn-commons:jar:1.8.1
+[DEBUG]   Included: org.apache.maven.shared:file-management:jar:1.2.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-io:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.release:maven-release-manager:jar:2.5.3
+[DEBUG]   Included: org.apache.maven.release:maven-release-api:jar:2.5.3
+[DEBUG]   Included: org.eclipse.aether:aether-util:jar:1.0.0.v20140518
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-6
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.apache.maven.shared:maven-invoker:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.4
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.2
+[DEBUG]   Included: commons-io:commons-io:jar:2.2
+[DEBUG]   Included: jaxen:jaxen:jar:1.1-beta-8
+[DEBUG]   Included: jdom:jdom:jar:1.0
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-api:jar:1.9.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.15
+[DEBUG]   Included: org.jdom:jdom:jar:1.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-release-plugin:2.5.3:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-release-plugin:2.5.3, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-release-plugin:2.5.3:clean' with basic configurator -->
+[DEBUG]   (s) basedir = C:\Users\donini\eclipse-workspace\control-version
+[DEBUG]   (f) javaHome = C:\Program Files\Java\jdk1.8.0_161\jre
+[DEBUG]   (f) mavenExecutorId = invoker
+[DEBUG]   (f) mavenHome = C:\apache-maven-3.5.3\bin\..
+[DEBUG]   (f) project = MavenProject: br.com.control.version:control-version:0.0.12-SNAPSHOT @ C:\Users\donini\eclipse-workspace\control-version\pom.xml
+[DEBUG]   (f) reactorProjects = [MavenProject: br.com.control.version:control-version:0.0.12-SNAPSHOT @ C:\Users\donini\eclipse-workspace\control-version\pom.xml]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@720653c2
+[DEBUG]   (f) settings = org.apache.maven.execution.SettingsAdapter@6ad5923a
+[DEBUG] -- end configuration --
+[INFO] Cleaning up after release...
+[INFO] 
+[INFO] --- maven-release-plugin:2.5.3:prepare (default-cli) @ control-version ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-release-plugin:2.5.3:prepare from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-release-plugin:2.5.3, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-release-plugin:2.5.3:prepare' with basic configurator -->
+[DEBUG]   (f) addSchema = true
+[DEBUG]   (f) allowReleasePluginSnapshot = false
+[DEBUG]   (f) allowTimestampedSnapshots = false
+[DEBUG]   (f) autoVersionSubmodules = true
+[DEBUG]   (s) basedir = C:\Users\donini\eclipse-workspace\control-version
+[DEBUG]   (f) commitByProject = false
+[DEBUG]   (f) developmentVersion = 0.0.12-SNAPSHOT
+[DEBUG]   (f) dryRun = false
+[DEBUG]   (f) generateReleasePoms = false
+[DEBUG]   (f) javaHome = C:\Program Files\Java\jdk1.8.0_161\jre
+[DEBUG]   (f) mavenExecutorId = invoker
+[DEBUG]   (f) mavenHome = C:\apache-maven-3.5.3\bin\..
+[DEBUG]   (f) preparationGoals = clean verify
+[DEBUG]   (f) project = MavenProject: br.com.control.version:control-version:0.0.12-SNAPSHOT @ C:\Users\donini\eclipse-workspace\control-version\pom.xml
+[DEBUG]   (f) projectVersionPolicyId = default
+[DEBUG]   (f) pushChanges = true
+[DEBUG]   (f) reactorProjects = [MavenProject: br.com.control.version:control-version:0.0.12-SNAPSHOT @ C:\Users\donini\eclipse-workspace\control-version\pom.xml]
+[DEBUG]   (f) releaseVersion = 0.0.11
+[DEBUG]   (f) remoteTagging = true
+[DEBUG]   (f) resume = true
+[DEBUG]   (f) scmCommentPrefix = [maven-release-plugin] 
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@720653c2
+[DEBUG]   (f) settings = org.apache.maven.execution.SettingsAdapter@6ad5923a
+[DEBUG]   (f) suppressCommitBeforeTag = false
+[DEBUG]   (f) tag = 0.0.11
+[DEBUG]   (f) tagNameFormat = 0.0.12-SNAPSHOT
+[DEBUG]   (f) updateDependencies = true
+[DEBUG]   (f) updateWorkingCopyVersions = true
+[DEBUG]   (f) useEditMode = false
+[DEBUG]   (f) waitBeforeTagging = 0
+[DEBUG] -- end configuration --
+[DEBUG] release.properties not found - using empty properties
+[INFO] Verifying that there are no local modifications...
+[INFO]   ignoring changes on: **\pom.xml.next, **\release.properties, **\pom.xml.branch, **\pom.xml.tag, **\pom.xml.backup, **\pom.xml.releaseBackup
+[INFO] Executing: cmd.exe /X /C "git status --porcelain"
+[INFO] Working directory: C:\Users\donini\eclipse-workspace\control-version
+[DEBUG] ?? output.log
+[DEBUG] ?? release.properties
+[INFO] Checking dependencies and plugins for snapshots ...
+[INFO] Transforming 'control-version'...
+[INFO] Not generating release POMs
+[INFO] Executing goals 'clean verify'...
+[DEBUG] Using ${maven.home} of: 'C:\apache-maven-3.5.3\bin\..'.
+[DEBUG] Executing: cmd.exe /X /C "C:\apache-maven-3.5.3\bin\mvn.cmd -X -D maven.repo.local=C:\Users\donini\.m2\repository -s C:\Users\donini\AppData\Local\Temp\release-settings2256343191607222620.xml clean verify"
+[WARNING] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Apache Maven 3.5.3 (3383c37e1f9e9b3bc3df5050c29c8aff9f295297; 2018-02-24T16:49:05-03:00)
+[INFO] Maven home: C:\apache-maven-3.5.3\bin\..
+[INFO] Java version: 1.8.0_161, vendor: Oracle Corporation
+[INFO] Java home: C:\Program Files\Java\jdk1.8.0_161\jre
+[INFO] Default locale: pt_BR, platform encoding: Cp1252
+[INFO] OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[INFO] [DEBUG] Created new class realm maven.api
+[INFO] [DEBUG] Importing foreign packages into class realm maven.api
+[INFO] [DEBUG]   Imported: javax.annotation.* < plexus.core
+[INFO] [DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[INFO] [DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[INFO] [DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[INFO] [DEBUG]   Imported: javax.inject.* < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.* < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.model < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.project < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[INFO] [DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[INFO] [DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[INFO] [DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[INFO] [DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[INFO] [DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[INFO] [DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[INFO] [DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[INFO] [DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[INFO] [DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[INFO] [DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[INFO] [DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[INFO] [DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[INFO] [DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[INFO] [DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[INFO] [DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[INFO] [DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[INFO] [DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[INFO] [DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[INFO] [DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[INFO] [DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[INFO] [DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[INFO] [DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[INFO] [DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[INFO] [DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[INFO] [DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[INFO] [DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[INFO] [DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[INFO] [DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[INFO] [DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[INFO] [DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[INFO] [DEBUG]   Imported: org.slf4j.* < plexus.core
+[INFO] [DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[INFO] [DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[INFO] [DEBUG] Populating class realm maven.api
+[INFO] [INFO] Error stacktraces are turned on.
+[INFO] [DEBUG] Message scheme: color
+[INFO] [DEBUG] Message styles: debug info warning error success failure strong mojo project
+[INFO] [DEBUG] Reading global settings from C:\apache-maven-3.5.3\bin\..\conf\settings.xml
+[INFO] [DEBUG] Reading user settings from C:\Users\donini\AppData\Local\Temp\release-settings2256343191607222620.xml
+[INFO] [DEBUG] Reading global toolchains from C:\apache-maven-3.5.3\bin\..\conf\toolchains.xml
+[INFO] [DEBUG] Reading user toolchains from C:\Users\donini\.m2\toolchains.xml
+[INFO] [DEBUG] Using local repository at C:\Users\donini\.m2\repository
+[INFO] [DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\donini\.m2\repository
+[INFO] [INFO] Scanning for projects...
+[INFO] [DEBUG] Using mirror internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/) for central (https://repo.maven.apache.org/maven2).
+[INFO] [DEBUG] Extension realms for project br.com.control.version:control-version:jar:0.0.11: (none)
+[INFO] [DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[INFO] [DEBUG] === REACTOR BUILD PLAN ================================================
+[INFO] [DEBUG] Project: br.com.control.version:control-version:jar:0.0.11
+[INFO] [DEBUG] Tasks:   [clean, verify]
+[INFO] [DEBUG] Style:   Regular
+[INFO] [DEBUG] =======================================================================
+[INFO] [INFO] 
+[INFO] [INFO] ---------------< br.com.control.version:control-version >---------------
+[INFO] [INFO] Building control-version 0.0.11
+[INFO] [INFO] --------------------------------[ jar ]---------------------------------
+[INFO] [DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[INFO] [DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[INFO] [DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[INFO] [DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[INFO] [DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[INFO] [DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[INFO] [DEBUG] Using mirror internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/) for apache.snapshots (http://repository.apache.org/snapshots).
+[INFO] [DEBUG] Using mirror internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/) for apache.snapshots (https://repository.apache.org/snapshots).
+[INFO] [DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[INFO] [DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[INFO] [DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[INFO] [DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[INFO] [DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[INFO] [DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[INFO] [DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[INFO] [DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[INFO] [DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[INFO] [DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[INFO] [DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[INFO] [DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[INFO] [DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[INFO] [DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[INFO] [DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[INFO] [DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[INFO] [DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[INFO] [DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[INFO] [DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[INFO] [DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[INFO] [DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[INFO] [DEBUG] === PROJECT BUILD PLAN ================================================
+[INFO] [DEBUG] Project:       br.com.control.version:control-version:0.0.11
+[INFO] [DEBUG] Dependencies (collect): []
+[INFO] [DEBUG] Dependencies (resolve): [compile, runtime, test]
+[INFO] [DEBUG] Repositories (dependencies): [internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/, default, releases)]
+[INFO] [DEBUG] Repositories (plugins)     : [internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/, default, releases)]
+[INFO] [DEBUG] -----------------------------------------------------------------------
+[INFO] [DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[INFO] [DEBUG] Style:         Regular
+[INFO] [DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+[INFO] <configuration>
+[INFO]   <directory default-value="${project.build.directory}"/>
+[INFO]   <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+[INFO]   <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+[INFO]   <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+[INFO]   <outputDirectory default-value="${project.build.outputDirectory}"/>
+[INFO]   <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+[INFO]   <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+[INFO]   <skip default-value="false">${clean.skip}</skip>
+[INFO]   <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+[INFO]   <verbose>${clean.verbose}</verbose>
+[INFO] </configuration>
+[INFO] [DEBUG] -----------------------------------------------------------------------
+[INFO] [DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[INFO] [DEBUG] Style:         Regular
+[INFO] [DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+[INFO] <configuration>
+[INFO]   <buildFilters default-value="${project.build.filters}"/>
+[INFO]   <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+[INFO]   <escapeString>${maven.resources.escapeString}</escapeString>
+[INFO]   <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+[INFO]   <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+[INFO]   <outputDirectory default-value="${project.build.outputDirectory}"/>
+[INFO]   <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+[INFO]   <project default-value="${project}"/>
+[INFO]   <resources default-value="${project.resources}"/>
+[INFO]   <session default-value="${session}"/>
+[INFO]   <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+[INFO]   <useBuildFilters default-value="true"/>
+[INFO]   <useDefaultDelimiters default-value="true"/>
+[INFO] </configuration>
+[INFO] [DEBUG] -----------------------------------------------------------------------
+[INFO] [DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile (default-compile)
+[INFO] [DEBUG] Style:         Regular
+[INFO] [DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+[INFO] <configuration>
+[INFO]   <basedir default-value="${basedir}"/>
+[INFO]   <buildDirectory default-value="${project.build.directory}"/>
+[INFO]   <compilePath default-value="${project.compileClasspathElements}"/>
+[INFO]   <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+[INFO]   <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+[INFO]   <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+[INFO]   <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+[INFO]   <debug default-value="true">${maven.compiler.debug}</debug>
+[INFO]   <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+[INFO]   <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+[INFO]   <executable>${maven.compiler.executable}</executable>
+[INFO]   <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+[INFO]   <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+[INFO]   <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+[INFO]   <fork default-value="false">${maven.compiler.fork}</fork>
+[INFO]   <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+[INFO]   <maxmem>${maven.compiler.maxmem}</maxmem>
+[INFO]   <meminitial>${maven.compiler.meminitial}</meminitial>
+[INFO]   <mojoExecution default-value="${mojoExecution}"/>
+[INFO]   <optimize default-value="false">${maven.compiler.optimize}</optimize>
+[INFO]   <outputDirectory default-value="${project.build.outputDirectory}"/>
+[INFO]   <parameters default-value="false">${maven.compiler.parameters}</parameters>
+[INFO]   <project default-value="${project}"/>
+[INFO]   <projectArtifact default-value="${project.artifact}"/>
+[INFO]   <release>${maven.compiler.release}</release>
+[INFO]   <session default-value="${session}"/>
+[INFO]   <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+[INFO]   <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+[INFO]   <skipMain>${maven.main.skip}</skipMain>
+[INFO]   <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+[INFO]   <source default-value="1.5">1.8</source>
+[INFO]   <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+[INFO]   <target default-value="1.5">1.8</target>
+[INFO]   <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+[INFO]   <verbose default-value="false">${maven.compiler.verbose}</verbose>
+[INFO] </configuration>
+[INFO] [DEBUG] -----------------------------------------------------------------------
+[INFO] [DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:testResources (default-testResources)
+[INFO] [DEBUG] Style:         Regular
+[INFO] [DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+[INFO] <configuration>
+[INFO]   <buildFilters default-value="${project.build.filters}"/>
+[INFO]   <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+[INFO]   <escapeString>${maven.resources.escapeString}</escapeString>
+[INFO]   <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+[INFO]   <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+[INFO]   <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+[INFO]   <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+[INFO]   <project default-value="${project}"/>
+[INFO]   <resources default-value="${project.testResources}"/>
+[INFO]   <session default-value="${session}"/>
+[INFO]   <skip>${maven.test.skip}</skip>
+[INFO]   <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+[INFO]   <useBuildFilters default-value="true"/>
+[INFO]   <useDefaultDelimiters default-value="true"/>
+[INFO] </configuration>
+[INFO] [DEBUG] -----------------------------------------------------------------------
+[INFO] [DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile (default-testCompile)
+[INFO] [DEBUG] Style:         Regular
+[INFO] [DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+[INFO] <configuration>
+[INFO]   <basedir default-value="${basedir}"/>
+[INFO]   <buildDirectory default-value="${project.build.directory}"/>
+[INFO]   <compilePath default-value="${project.compileClasspathElements}"/>
+[INFO]   <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+[INFO]   <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+[INFO]   <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+[INFO]   <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+[INFO]   <debug default-value="true">${maven.compiler.debug}</debug>
+[INFO]   <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+[INFO]   <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+[INFO]   <executable>${maven.compiler.executable}</executable>
+[INFO]   <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+[INFO]   <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+[INFO]   <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+[INFO]   <fork default-value="false">${maven.compiler.fork}</fork>
+[INFO]   <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+[INFO]   <maxmem>${maven.compiler.maxmem}</maxmem>
+[INFO]   <meminitial>${maven.compiler.meminitial}</meminitial>
+[INFO]   <mojoExecution default-value="${mojoExecution}"/>
+[INFO]   <optimize default-value="false">${maven.compiler.optimize}</optimize>
+[INFO]   <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+[INFO]   <parameters default-value="false">${maven.compiler.parameters}</parameters>
+[INFO]   <project default-value="${project}"/>
+[INFO]   <release>${maven.compiler.release}</release>
+[INFO]   <session default-value="${session}"/>
+[INFO]   <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+[INFO]   <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+[INFO]   <skip>${maven.test.skip}</skip>
+[INFO]   <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+[INFO]   <source default-value="1.5">1.8</source>
+[INFO]   <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+[INFO]   <target default-value="1.5">1.8</target>
+[INFO]   <testPath default-value="${project.testClasspathElements}"/>
+[INFO]   <testRelease>${maven.compiler.testRelease}</testRelease>
+[INFO]   <testSource>${maven.compiler.testSource}</testSource>
+[INFO]   <testTarget>${maven.compiler.testTarget}</testTarget>
+[INFO]   <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+[INFO]   <verbose default-value="false">${maven.compiler.verbose}</verbose>
+[INFO] </configuration>
+[INFO] [DEBUG] -----------------------------------------------------------------------
+[INFO] [DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test)
+[INFO] [DEBUG] Style:         Regular
+[INFO] [DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+[INFO] <configuration>
+[INFO]   <argLine>${argLine}</argLine>
+[INFO]   <basedir default-value="${basedir}"/>
+[INFO]   <childDelegation default-value="false">${childDelegation}</childDelegation>
+[INFO]   <classesDirectory default-value="${project.build.outputDirectory}"/>
+[INFO]   <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+[INFO]   <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+[INFO]   <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+[INFO]   <excludedGroups>${excludedGroups}</excludedGroups>
+[INFO]   <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+[INFO]   <failIfNoTests>${failIfNoTests}</failIfNoTests>
+[INFO]   <forkMode default-value="once">${forkMode}</forkMode>
+[INFO]   <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+[INFO]   <groups>${groups}</groups>
+[INFO]   <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+[INFO]   <jvm>${jvm}</jvm>
+[INFO]   <localRepository default-value="${localRepository}"/>
+[INFO]   <objectFactory>${objectFactory}</objectFactory>
+[INFO]   <parallel>${parallel}</parallel>
+[INFO]   <parallelMavenExecution default-value="${session.parallel}"/>
+[INFO]   <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+[INFO]   <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+[INFO]   <pluginDescriptor default-value="${plugin}"/>
+[INFO]   <printSummary default-value="true">${surefire.printSummary}</printSummary>
+[INFO]   <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+[INFO]   <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+[INFO]   <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+[INFO]   <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+[INFO]   <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+[INFO]   <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+[INFO]   <runOrder default-value="filesystem"/>
+[INFO]   <skip default-value="false">${maven.test.skip}</skip>
+[INFO]   <skipExec>${maven.test.skip.exec}</skipExec>
+[INFO]   <skipTests default-value="false">${skipTests}</skipTests>
+[INFO]   <test>${test}</test>
+[INFO]   <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+[INFO]   <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+[INFO]   <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+[INFO]   <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+[INFO]   <threadCount>${threadCount}</threadCount>
+[INFO]   <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+[INFO]   <useFile default-value="true">${surefire.useFile}</useFile>
+[INFO]   <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+[INFO]   <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+[INFO]   <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+[INFO]   <workingDirectory>${basedir}</workingDirectory>
+[INFO]   <project default-value="${project}"/>
+[INFO]   <session default-value="${session}"/>
+[INFO] </configuration>
+[INFO] [DEBUG] -----------------------------------------------------------------------
+[INFO] [DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:2.4:jar (default-jar)
+[INFO] [DEBUG] Style:         Regular
+[INFO] [DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+[INFO] <configuration>
+[INFO]   <classesDirectory default-value="${project.build.outputDirectory}"/>
+[INFO]   <defaultManifestFile default-value="${project.build.outputDirectory}/META-INF/MANIFEST.MF"/>
+[INFO]   <finalName default-value="${project.build.finalName}">${jar.finalName}</finalName>
+[INFO]   <forceCreation default-value="false">${jar.forceCreation}</forceCreation>
+[INFO]   <outputDirectory default-value="${project.build.directory}"/>
+[INFO]   <project default-value="${project}"/>
+[INFO]   <session default-value="${session}"/>
+[INFO]   <skipIfEmpty default-value="false">${jar.skipIfEmpty}</skipIfEmpty>
+[INFO]   <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+[INFO] </configuration>
+[INFO] [DEBUG] =======================================================================
+[INFO] [DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=84239, ConflictMarker.markTime=659327, ConflictMarker.nodeCount=1, ConflictIdSorter.graphTime=65276, ConflictIdSorter.topsortTime=1279634, ConflictIdSorter.conflictIdCount=0, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2520613, ConflictResolver.conflictItemCount=0, DefaultDependencyCollector.collectTime=292831, DefaultDependencyCollector.transformTime=7895879}
+[INFO] [DEBUG] br.com.control.version:control-version:jar:0.0.11
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ control-version ---
+[INFO] [DEBUG] Using mirror internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/) for apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[INFO] [DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1323394, ConflictMarker.markTime=42302, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=148422, ConflictIdSorter.topsortTime=32091, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3446880, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=66142755, DefaultDependencyCollector.transformTime=5084622}
+[INFO] [DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5:
+[INFO] [DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[INFO] [DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[INFO] [DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[INFO] [DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[INFO] [DEBUG]   Imported:  < maven.api
+[INFO] [DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[INFO] [DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[INFO] [DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[INFO] [DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[INFO] [DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[INFO] [DEBUG]   (f) directory = C:\Users\donini\eclipse-workspace\control-version\target
+[INFO] [DEBUG]   (f) excludeDefaultDirectories = false
+[INFO] [DEBUG]   (f) failOnError = true
+[INFO] [DEBUG]   (f) followSymLinks = false
+[INFO] [DEBUG]   (f) outputDirectory = C:\Users\donini\eclipse-workspace\control-version\target\classes
+[INFO] [DEBUG]   (f) reportDirectory = C:\Users\donini\eclipse-workspace\control-version\target\site
+[INFO] [DEBUG]   (f) retryOnError = true
+[INFO] [DEBUG]   (f) skip = false
+[INFO] [DEBUG]   (f) testOutputDirectory = C:\Users\donini\eclipse-workspace\control-version\target\test-classes
+[INFO] [DEBUG] -- end configuration --
+[INFO] [INFO] Deleting C:\Users\donini\eclipse-workspace\control-version\target
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\test-classes
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\maven-status\maven-compiler-plugin\testCompile
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\maven-status\maven-compiler-plugin\compile\default-compile
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\maven-status\maven-compiler-plugin\compile
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\maven-status\maven-compiler-plugin
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\maven-status
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\maven-archiver\pom.properties
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\maven-archiver
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\generated-sources\annotations
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\generated-sources
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\control-version-0.0.11.jar
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\classes\br\com\control\version\Main.class
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\classes\br\com\control\version
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\classes\br\com\control
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\classes\br\com
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\classes\br
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\classes
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\maven-status\maven-compiler-plugin\compile\default-compile
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\maven-status\maven-compiler-plugin\compile
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\maven-status\maven-compiler-plugin
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\maven-status
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\maven-archiver\pom.properties
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\maven-archiver
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\javadoc-bundle-options\package-list
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\javadoc-bundle-options\javadoc-options-javadoc-resources.xml
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\javadoc-bundle-options
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\generated-sources\annotations
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\generated-sources
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\control-version-0.0.11.jar
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\control-version-0.0.11-sources.jar
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\control-version-0.0.11-javadoc.jar
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\classes\br\com\control\version\Main.class
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\classes\br\com\control\version
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\classes\br\com\control
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\classes\br\com
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\classes\br
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\classes
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\stylesheet.css
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\script.js
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\packages
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\package-list
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\overview-tree.html
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\options
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\javadoc.bat
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\index.html
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\index-all.html
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\help-doc.html
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\deprecated-list.html
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\constant-values.html
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\br\com\control\version\package-use.html
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\br\com\control\version\package-tree.html
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\br\com\control\version\package-summary.html
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\br\com\control\version\package-frame.html
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\br\com\control\version\Main.html
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\br\com\control\version\class-use\Main.html
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\br\com\control\version\class-use
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\br\com\control\version
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\br\com\control
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\br\com
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\br
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\allclasses-noframe.html
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs\allclasses-frame.html
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target\apidocs
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\target
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\src\main\java\br\com\control\version\Main.java
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\src\main\java\br\com\control\version
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\src\main\java\br\com\control
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\src\main\java\br\com
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\src\main\java\br
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\src\main\java
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\src\main
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\src
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\pom.xml
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.gitignore
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\refs\tags
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\refs\remotes\origin\HEAD
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\refs\remotes\origin
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\refs\remotes
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\refs\heads
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\refs
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\packed-refs
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\objects\pack\pack-39024f95b990194b6a2215e3abaf89dae1f2933a.pack
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\objects\pack\pack-39024f95b990194b6a2215e3abaf89dae1f2933a.idx
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\objects\pack
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\objects\info
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\objects
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\logs\refs\remotes\origin\HEAD
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\logs\refs\remotes\origin
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\logs\refs\remotes
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\logs\refs
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\logs\HEAD
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\logs
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\info\exclude
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\info
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\index
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\hooks\update.sample
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\hooks\prepare-commit-msg.sample
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\hooks\pre-receive.sample
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\hooks\pre-rebase.sample
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\hooks\pre-push.sample
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\hooks\pre-commit.sample
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\hooks\pre-applypatch.sample
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\hooks\post-update.sample
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\hooks\fsmonitor-watchman.sample
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\hooks\commit-msg.sample
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\hooks\applypatch-msg.sample
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\hooks
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\HEAD
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\FETCH_HEAD
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\description
+[INFO] [INFO] Deleting file C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git\config
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout\.git
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target\checkout
+[INFO] [INFO] Deleting directory C:\Users\donini\eclipse-workspace\control-version\target
+[INFO] [DEBUG] Skipping non-existing directory C:\Users\donini\eclipse-workspace\control-version\target\classes
+[INFO] [DEBUG] Skipping non-existing directory C:\Users\donini\eclipse-workspace\control-version\target\test-classes
+[INFO] [DEBUG] Skipping non-existing directory C:\Users\donini\eclipse-workspace\control-version\target\site
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ control-version ---
+[INFO] [DEBUG] Using mirror internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[INFO] [DEBUG] Using mirror internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/) for snapshots (http://snapshots.maven.codehaus.org/maven2).
+[INFO] [DEBUG] Using mirror internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/) for central (http://repo1.maven.org/maven2).
+[INFO] [DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=2254767, ConflictMarker.markTime=262199, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=655315, ConflictIdSorter.topsortTime=46314, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4391745, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=317422935, DefaultDependencyCollector.transformTime=7684734}
+[INFO] [DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
+[INFO] [DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[INFO] [DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[INFO] [DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[INFO] [DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[INFO] [DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[INFO] [DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[INFO] [DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[INFO] [DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[INFO] [DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[INFO] [DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[INFO] [DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[INFO] [DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[INFO] [DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[INFO] [DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[INFO] [DEBUG]       classworlds:classworlds:jar:1.1:compile
+[INFO] [DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[INFO] [DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[INFO] [DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[INFO] [DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[INFO] [DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[INFO] [DEBUG]       junit:junit:jar:3.8.1:compile
+[INFO] [DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[INFO] [DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[INFO] [DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[INFO] [DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[INFO] [DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[INFO] [DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[INFO] [DEBUG]   Imported:  < maven.api
+[INFO] [DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[INFO] [DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[INFO] [DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[INFO] [DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[INFO] [DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[INFO] [DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[INFO] [DEBUG]   Included: junit:junit:jar:3.8.1
+[INFO] [DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[INFO] [DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[INFO] [DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[INFO] [DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[INFO] [DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[INFO] [DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[INFO] [DEBUG]   (f) buildFilters = []
+[INFO] [DEBUG]   (f) escapeWindowsPaths = true
+[INFO] [DEBUG]   (s) includeEmptyDirs = false
+[INFO] [DEBUG]   (s) outputDirectory = C:\Users\donini\eclipse-workspace\control-version\target\classes
+[INFO] [DEBUG]   (s) overwrite = false
+[INFO] [DEBUG]   (f) project = MavenProject: br.com.control.version:control-version:0.0.11 @ C:\Users\donini\eclipse-workspace\control-version\pom.xml
+[INFO] [DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\donini\eclipse-workspace\control-version\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[INFO] [DEBUG]   (f) session = org.apache.maven.execution.MavenSession@4e4efc1b
+[INFO] [DEBUG]   (f) supportMultiLineFiltering = false
+[INFO] [DEBUG]   (f) useBuildFilters = true
+[INFO] [DEBUG]   (s) useDefaultDelimiters = true
+[INFO] [DEBUG] -- end configuration --
+[INFO] [DEBUG] properties used {file.encoding.pkg=sun.io, env.PROMPT=CLINK $P$G, java.home=C:\Program Files\Java\jdk1.8.0_161\jre, env.CONEMUDRAWHWND=0x000E04B8, env.CONEMUANSILOG=, env.CONEMUWORKDIR=C:\Users\donini, classworlds.conf=C:\apache-maven-3.5.3\bin\..\bin\m2.conf, env.ENV=DEV, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed, env.USERNAME=donini, sun.os.patch.level=, java.vendor.url=http://java.oracle.com/, env.COMPUTERNAME=DESKTOP-TRDL8PF, env.=C:=C:\Users\donini\eclipse-workspace\control-version, java.version=1.8.0_161, env.CONEMUDRIVE=C:, env.CONEMUHOOKS=Enabled, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.USERPROFILE=C:\Users\donini, env.CONEMUBUILD=180206, env.PLINK_PROTOCOL=ssh, user.name=donini, sun.io.unicode.encoding=UnicodeLittle, sun.jnu.encoding=Cp1252, java.runtime.name=Java(TM) SE Runtime Environment, env.DOCKER_HOST=tcp://127.0.0.1:2375, env.LOCALAPPDATA=C:\Users\donini\AppData\Local, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, java.specification.name=Java Platform API Specification, user.timezone=, user.script=, path.separator=;, env.MAVEN_CMD_LINE_ARGS=-X -D maven.repo.local=C:\Users\donini\.m2\repository -s C:\Users\donini\AppData\Local\Temp\release-settings2256343191607222620.xml clean verify, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 78 Stepping 3, GenuineIntel, env.CMDER_ROOT=C:\cmder, file.encoding=Cp1252, env.ANSICON_DEF=7, env.HOME=C:\Users\donini, env.CONEMUHWND=0x000C05B2, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X -D maven.repo.local=C:\Users\donini\.m2\repository -s C:\Users\donini\AppData\Local\Temp\release-settings2256343191607222620.xml clean verify, env.NUMBER_OF_PROCESSORS=4, env.APPDATA=C:\Users\donini\AppData\Roaming, env.MAVEN_TERMINATE_CMD=on, env.CONEMUARGS2=, env.WINDIR=C:\Windows, env.ARCHITECTURE=64, env.CONEMUCONFIG=, env.CONEMUCFGDIR=C:\cmder\vendor\conemu-maximus5, java.io.tmpdir=C:\Users\donini\AppData\Local\Temp\, user.language=pt, line.separator=
+[INFO] , maven.repo.local=C:\Users\donini\.m2\repository, env.CONEMUSERVERPID=3536, env.ANSICON=168x1000 (168x41), env.CONEMUBASEDIR=C:\cmder\vendor\conemu-maximus5\ConEmu, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.GIT_INSTALL_ROOT=C:\Program Files\Git, java.vm.info=mixed mode, sun.desktop=windows, java.vm.specification.name=Java Virtual Machine Specification, env.M2_HOME=C:\apache-maven-3.5.3\bin\.., env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.WDIR=C:\, env.ONEDRIVE=C:\Users\donini\OneDrive, env.USERDOMAIN_ROAMINGPROFILE=DESKTOP-TRDL8PF, env.LOGONSERVER=\\DESKTOP-TRDL8PF, env.PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.JAVACMD=C:\Program Files\Java\jdk1.8.0_161\bin\java.exe, env.JVMCONFIG=\.mvn\jvm.config, env.PUBLIC=C:\Users\Public, env.USERDOMAIN=DESKTOP-TRDL8PF, env.PROCESSOR_LEVEL=6, env.PROGRAMFILES(X86)=C:\Program Files (x86), env.=EXITCODE=00000001, env.CYGWIN=C:\cygwin64\bin, os.name=Windows 10, java.specification.vendor=Oracle Corporation, env.TMP=C:\Users\donini\AppData\Local\Temp, env.TERM=cygwin, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.OS=Windows_NT, java.library.path=C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\cmder\bin;C:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder\vendor\conemu-maximus5;C:\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\donini\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\apache-maven-3.5.3\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jre1.8.0_161\bin;C:\Users\donini\AppData\Roaming\npm;C:\Ruby25-x64\bin;C:\cygwin64\bin;;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\cmder\;., env.PROGRAMW6432=C:\Program Files, env.PATH=C:\cmder\bin;C:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder\vendor\conemu-maximus5;C:\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\donini\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\apache-maven-3.5.3\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jre1.8.0_161\bin;C:\Users\donini\AppData\Roaming\npm;C:\Ruby25-x64\bin;C:\cygwin64\bin;;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\cmder\, library.jansi.path=C:\apache-maven-3.5.3\bin\..\lib\jansi-native, env.ALIASES=C:\cmder\config\user-aliases.cmd, java.class.version=52.0, env.CONEMUWORKDRIVE=C:, maven.multiModuleProjectDirectory=C:\Users\donini\eclipse-workspace\control-version, env.HOMEDRIVE=C:, env.SYSTEMROOT=C:\Windows, env.CONEMUPID=15984, env.COMSPEC=C:\Windows\system32\cmd.exe, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_161\jre\bin, env.SYSTEMDRIVE=C:, env.PROCESSOR_REVISION=4e03, env.CONEMUTASK={cmd::Cmder}, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, user.variant=, env.JRE_HOME=C:\Program Files\Java\jre1.8.0_161, env.NODE_HOME=C:\Program Files\nodejs, env.CONEMUDIR=C:\cmder\vendor\conemu-maximus5, env.CONEMUBASEDIRSHORT=C:\cmder\vendor\conemu-maximus5\ConEmu, env.PROGRAMFILES=C:\Program Files, java.vm.specification.version=1.8, env.PROGRAMDATA=C:\ProgramData, awt.toolkit=sun.awt.windows.WToolkit, env.MAVEN_HOME=C:\apache-maven-3.5.3\bin\.., sun.cpu.isalist=amd64, env.MAVEN_PROJECTBASEDIR=C:\Users\donini\eclipse-workspace\control-version, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, os.version=10.0, env.CONEMUBACKHWND=0x006B0628, env.ERROR_CODE=0, user.home=C:\Users\donini, java.vm.vendor=Oracle Corporation, env.JAVA_HOME=C:\Program Files\Java\jdk1.8.0_161, env.SVN_SSH=C:\\Program Files\\Git\\bin\\ssh.exe, user.dir=C:\Users\donini\eclipse-workspace\control-version, maven.conf=C:\apache-maven-3.5.3\bin\../conf, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, sun.cpu.endian=little, env.ALLUSERSPROFILE=C:\ProgramData, env.MVN_HOME=C:\apache-maven-3.5.3\bin, env.CONEMUARGS=/Icon "C:\cmder\icons\cmder.ico" /Title Cmder /dir "C:\Users\donini", env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.USER-ALIASES=C:\cmder\config\user-aliases.cmd, env.PROCESSOR_ARCHITECTURE=AMD64, java.vm.version=25.161-b12, java.class.path=C:\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar, env.=::=::\, env.HOMEPATH=\Users\donini, env.EXEC_DIR=C:\Users\donini\eclipse-workspace\control-version, os.arch=amd64, maven.build.version=Apache Maven 3.5.3 (3383c37e1f9e9b3bc3df5050c29c8aff9f295297; 2018-02-24T16:49:05-03:00), env.SESSIONNAME=Console, sun.java.launcher=SUN_STANDARD, java.vm.specification.vendor=Oracle Corporation, file.separator=\, java.runtime.version=1.8.0_161-b12, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes, env.VERBOSE-OUTPUT=0 , env.CONEMUANSI=ON, maven.version=3.5.3, env.TEMP=C:\Users\donini\AppData\Local\Temp, user.country=BR, maven.home=C:\apache-maven-3.5.3\bin\.., java.vendor=Oracle Corporation, env.RUBY_HOME=C:\Ruby25-x64, env.CLASSWORLDS_JAR="C:\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar", env.CONEMUPALETTE=Monokai, java.specification.version=1.8, sun.arch.data.model=64}
+[INFO] [WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] [DEBUG] resource with targetPath null
+[INFO] directory C:\Users\donini\eclipse-workspace\control-version\src\main\resources
+[INFO] excludes []
+[INFO] includes []
+[INFO] [DEBUG] ignoreDelta true
+[INFO] [INFO] Copying 0 resource
+[INFO] [DEBUG] no use filter components
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ control-version ---
+[INFO] [DEBUG] Using mirror internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/) for ow2-snapshot (http://repository.ow2.org/nexus/content/repositories/snapshots).
+[INFO] [DEBUG] Using mirror internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/) for sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots).
+[INFO] [DEBUG] Using mirror internal-repository (http://nx.dasa.com.br:8081/repository/maven-public/) for plexus.snapshots (https://oss.sonatype.org/content/repositories/plexus-snapshots).
+[INFO] [DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=441983, ConflictMarker.markTime=786233, ConflictMarker.nodeCount=118, ConflictIdSorter.graphTime=187807, ConflictIdSorter.topsortTime=78039, ConflictIdSorter.conflictIdCount=45, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3716008, ConflictResolver.conflictItemCount=72, DefaultDependencyCollector.collectTime=515665216, DefaultDependencyCollector.transformTime=5238150}
+[INFO] [DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.7.0:
+[INFO] [DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[INFO] [DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[INFO] [DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[INFO] [DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[INFO] [DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[INFO] [DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[INFO] [DEBUG]       org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+[INFO] [DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[INFO] [DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[INFO] [DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[INFO] [DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[INFO] [DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[INFO] [DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[INFO] [DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[INFO] [DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[INFO] [DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[INFO] [DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[INFO] [DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[INFO] [DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[INFO] [DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile
+[INFO] [DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[INFO] [DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[INFO] [DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.1.0:compile
+[INFO] [DEBUG]       commons-io:commons-io:jar:2.5:compile
+[INFO] [DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[INFO] [DEBUG]    org.codehaus.plexus:plexus-java:jar:0.9.2:compile
+[INFO] [DEBUG]       org.ow2.asm:asm:jar:6.0_BETA:compile
+[INFO] [DEBUG]       com.thoughtworks.qdox:qdox:jar:2.0-M7:compile
+[INFO] [DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.8.2:compile
+[INFO] [DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.8.2:compile
+[INFO] [DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.8.2:runtime
+[INFO] [DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.7.0
+[INFO] [DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.7.0
+[INFO] [DEBUG]   Imported:  < maven.api
+[INFO] [DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.7.0
+[INFO] [DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.7.0
+[INFO] [DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[INFO] [DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[INFO] [DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.4
+[INFO] [DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[INFO] [DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[INFO] [DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.6
+[INFO] [DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[INFO] [DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[INFO] [DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.1.0
+[INFO] [DEBUG]   Included: commons-io:commons-io:jar:2.5
+[INFO] [DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[INFO] [DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:0.9.2
+[INFO] [DEBUG]   Included: org.ow2.asm:asm:jar:6.0_BETA
+[INFO] [DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0-M7
+[INFO] [DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.8.2
+[INFO] [DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.8.2
+[INFO] [DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.8.2
+[INFO] [DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.7.0, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[INFO] [DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile' with basic configurator -->
+[INFO] [DEBUG]   (f) basedir = C:\Users\donini\eclipse-workspace\control-version
+[INFO] [DEBUG]   (f) buildDirectory = C:\Users\donini\eclipse-workspace\control-version\target
+[INFO] [DEBUG]   (f) compilePath = [C:\Users\donini\eclipse-workspace\control-version\target\classes]
+[INFO] [DEBUG]   (f) compileSourceRoots = [C:\Users\donini\eclipse-workspace\control-version\src\main\java]
+[INFO] [DEBUG]   (f) compilerId = javac
+[INFO] [DEBUG]   (f) debug = true
+[INFO] [DEBUG]   (f) failOnError = true
+[INFO] [DEBUG]   (f) failOnWarning = false
+[INFO] [DEBUG]   (f) forceJavacCompilerUse = false
+[INFO] [DEBUG]   (f) fork = false
+[INFO] [DEBUG]   (f) generatedSourcesDirectory = C:\Users\donini\eclipse-workspace\control-version\target\generated-sources\annotations
+[INFO] [DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile {execution: default-compile}
+[INFO] [DEBUG]   (f) optimize = false
+[INFO] [DEBUG]   (f) outputDirectory = C:\Users\donini\eclipse-workspace\control-version\target\classes
+[INFO] [DEBUG]   (f) parameters = false
+[INFO] [DEBUG]   (f) project = MavenProject: br.com.control.version:control-version:0.0.11 @ C:\Users\donini\eclipse-workspace\control-version\pom.xml
+[INFO] [DEBUG]   (f) projectArtifact = br.com.control.version:control-version:jar:0.0.11
+[INFO] [DEBUG]   (f) session = org.apache.maven.execution.MavenSession@4e4efc1b
+[INFO] [DEBUG]   (f) showDeprecation = false
+[INFO] [DEBUG]   (f) showWarnings = false
+[INFO] [DEBUG]   (f) skipMultiThreadWarning = false
+[INFO] [DEBUG]   (f) source = 1.8
+[INFO] [DEBUG]   (f) staleMillis = 0
+[INFO] [DEBUG]   (f) target = 1.8
+[INFO] [DEBUG]   (f) useIncrementalCompilation = true
+[INFO] [DEBUG]   (f) verbose = false
+[INFO] [DEBUG] -- end configuration --
+[INFO] [DEBUG] Using compiler 'javac'.
+[INFO] [DEBUG] Adding C:\Users\donini\eclipse-workspace\control-version\target\generated-sources\annotations to compile source roots:
+[INFO]   C:\Users\donini\eclipse-workspace\control-version\src\main\java
+[INFO] [DEBUG] New compile source roots:
+[INFO]   C:\Users\donini\eclipse-workspace\control-version\src\main\java
+[INFO]   C:\Users\donini\eclipse-workspace\control-version\target\generated-sources\annotations
+[INFO] [DEBUG] CompilerReuseStrategy: reuseCreated
+[INFO] [DEBUG] useIncrementalCompilation enabled
+[INFO] [DEBUG] Stale source detected: C:\Users\donini\eclipse-workspace\control-version\src\main\java\br\com\control\version\Main.java
+[INFO] [INFO] Changes detected - recompiling the module!
+[INFO] [DEBUG] Classpath:
+[INFO] [DEBUG]  C:\Users\donini\eclipse-workspace\control-version\target\classes
+[INFO] [DEBUG] Source roots:
+[INFO] [DEBUG]  C:\Users\donini\eclipse-workspace\control-version\src\main\java
+[INFO] [DEBUG]  C:\Users\donini\eclipse-workspace\control-version\target\generated-sources\annotations
+[INFO] [DEBUG] Command line options:
+[INFO] [DEBUG] -d C:\Users\donini\eclipse-workspace\control-version\target\classes -classpath C:\Users\donini\eclipse-workspace\control-version\target\classes; -sourcepath C:\Users\donini\eclipse-workspace\control-version\src\main\java;C:\Users\donini\eclipse-workspace\control-version\target\generated-sources\annotations; -s C:\Users\donini\eclipse-workspace\control-version\target\generated-sources\annotations -g -nowarn -target 1.8 -source 1.8
+[INFO] [WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] [DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] [INFO] Compiling 1 source file to C:\Users\donini\eclipse-workspace\control-version\target\classes
+[INFO] [DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ control-version ---
+[INFO] [DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[INFO] [DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:testResources' with basic configurator -->
+[INFO] [DEBUG]   (f) buildFilters = []
+[INFO] [DEBUG]   (f) escapeWindowsPaths = true
+[INFO] [DEBUG]   (s) includeEmptyDirs = false
+[INFO] [DEBUG]   (s) outputDirectory = C:\Users\donini\eclipse-workspace\control-version\target\test-classes
+[INFO] [DEBUG]   (s) overwrite = false
+[INFO] [DEBUG]   (f) project = MavenProject: br.com.control.version:control-version:0.0.11 @ C:\Users\donini\eclipse-workspace\control-version\pom.xml
+[INFO] [DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\donini\eclipse-workspace\control-version\src\test\resources, PatternSet [includes: {}, excludes: {}]}}]
+[INFO] [DEBUG]   (f) session = org.apache.maven.execution.MavenSession@4e4efc1b
+[INFO] [DEBUG]   (f) supportMultiLineFiltering = false
+[INFO] [DEBUG]   (f) useBuildFilters = true
+[INFO] [DEBUG]   (s) useDefaultDelimiters = true
+[INFO] [DEBUG] -- end configuration --
+[INFO] [DEBUG] properties used {file.encoding.pkg=sun.io, env.PROMPT=CLINK $P$G, java.home=C:\Program Files\Java\jdk1.8.0_161\jre, env.CONEMUDRAWHWND=0x000E04B8, env.CONEMUANSILOG=, env.CONEMUWORKDIR=C:\Users\donini, classworlds.conf=C:\apache-maven-3.5.3\bin\..\bin\m2.conf, env.ENV=DEV, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed, env.USERNAME=donini, sun.os.patch.level=, java.vendor.url=http://java.oracle.com/, env.COMPUTERNAME=DESKTOP-TRDL8PF, env.=C:=C:\Users\donini\eclipse-workspace\control-version, java.version=1.8.0_161, env.CONEMUDRIVE=C:, env.CONEMUHOOKS=Enabled, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.USERPROFILE=C:\Users\donini, env.CONEMUBUILD=180206, env.PLINK_PROTOCOL=ssh, user.name=donini, sun.io.unicode.encoding=UnicodeLittle, sun.jnu.encoding=Cp1252, java.runtime.name=Java(TM) SE Runtime Environment, env.DOCKER_HOST=tcp://127.0.0.1:2375, env.LOCALAPPDATA=C:\Users\donini\AppData\Local, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, java.specification.name=Java Platform API Specification, user.timezone=, user.script=, path.separator=;, env.MAVEN_CMD_LINE_ARGS=-X -D maven.repo.local=C:\Users\donini\.m2\repository -s C:\Users\donini\AppData\Local\Temp\release-settings2256343191607222620.xml clean verify, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 78 Stepping 3, GenuineIntel, env.CMDER_ROOT=C:\cmder, file.encoding=Cp1252, env.ANSICON_DEF=7, env.HOME=C:\Users\donini, env.CONEMUHWND=0x000C05B2, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X -D maven.repo.local=C:\Users\donini\.m2\repository -s C:\Users\donini\AppData\Local\Temp\release-settings2256343191607222620.xml clean verify, env.NUMBER_OF_PROCESSORS=4, env.APPDATA=C:\Users\donini\AppData\Roaming, env.MAVEN_TERMINATE_CMD=on, env.CONEMUARGS2=, env.WINDIR=C:\Windows, env.ARCHITECTURE=64, env.CONEMUCONFIG=, env.CONEMUCFGDIR=C:\cmder\vendor\conemu-maximus5, java.io.tmpdir=C:\Users\donini\AppData\Local\Temp\, user.language=pt, line.separator=
+[INFO] , maven.repo.local=C:\Users\donini\.m2\repository, env.CONEMUSERVERPID=3536, env.ANSICON=168x1000 (168x41), env.CONEMUBASEDIR=C:\cmder\vendor\conemu-maximus5\ConEmu, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.GIT_INSTALL_ROOT=C:\Program Files\Git, java.vm.info=mixed mode, sun.desktop=windows, java.vm.specification.name=Java Virtual Machine Specification, env.M2_HOME=C:\apache-maven-3.5.3\bin\.., env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.WDIR=C:\, env.ONEDRIVE=C:\Users\donini\OneDrive, env.USERDOMAIN_ROAMINGPROFILE=DESKTOP-TRDL8PF, env.LOGONSERVER=\\DESKTOP-TRDL8PF, env.PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.JAVACMD=C:\Program Files\Java\jdk1.8.0_161\bin\java.exe, env.JVMCONFIG=\.mvn\jvm.config, env.PUBLIC=C:\Users\Public, env.USERDOMAIN=DESKTOP-TRDL8PF, env.PROCESSOR_LEVEL=6, env.PROGRAMFILES(X86)=C:\Program Files (x86), env.=EXITCODE=00000001, env.CYGWIN=C:\cygwin64\bin, os.name=Windows 10, java.specification.vendor=Oracle Corporation, env.TMP=C:\Users\donini\AppData\Local\Temp, env.TERM=cygwin, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.OS=Windows_NT, java.library.path=C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\cmder\bin;C:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder\vendor\conemu-maximus5;C:\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\donini\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\apache-maven-3.5.3\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jre1.8.0_161\bin;C:\Users\donini\AppData\Roaming\npm;C:\Ruby25-x64\bin;C:\cygwin64\bin;;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\cmder\;., env.PROGRAMW6432=C:\Program Files, env.PATH=C:\cmder\bin;C:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder\vendor\conemu-maximus5;C:\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\donini\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\apache-maven-3.5.3\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jre1.8.0_161\bin;C:\Users\donini\AppData\Roaming\npm;C:\Ruby25-x64\bin;C:\cygwin64\bin;;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\cmder\, library.jansi.path=C:\apache-maven-3.5.3\bin\..\lib\jansi-native, env.ALIASES=C:\cmder\config\user-aliases.cmd, java.class.version=52.0, env.CONEMUWORKDRIVE=C:, maven.multiModuleProjectDirectory=C:\Users\donini\eclipse-workspace\control-version, env.HOMEDRIVE=C:, env.SYSTEMROOT=C:\Windows, env.CONEMUPID=15984, env.COMSPEC=C:\Windows\system32\cmd.exe, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_161\jre\bin, env.SYSTEMDRIVE=C:, env.PROCESSOR_REVISION=4e03, env.CONEMUTASK={cmd::Cmder}, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, user.variant=, env.JRE_HOME=C:\Program Files\Java\jre1.8.0_161, env.NODE_HOME=C:\Program Files\nodejs, env.CONEMUDIR=C:\cmder\vendor\conemu-maximus5, env.CONEMUBASEDIRSHORT=C:\cmder\vendor\conemu-maximus5\ConEmu, env.PROGRAMFILES=C:\Program Files, java.vm.specification.version=1.8, env.PROGRAMDATA=C:\ProgramData, awt.toolkit=sun.awt.windows.WToolkit, env.MAVEN_HOME=C:\apache-maven-3.5.3\bin\.., sun.cpu.isalist=amd64, env.MAVEN_PROJECTBASEDIR=C:\Users\donini\eclipse-workspace\control-version, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, os.version=10.0, env.CONEMUBACKHWND=0x006B0628, env.ERROR_CODE=0, user.home=C:\Users\donini, java.vm.vendor=Oracle Corporation, env.JAVA_HOME=C:\Program Files\Java\jdk1.8.0_161, env.SVN_SSH=C:\\Program Files\\Git\\bin\\ssh.exe, user.dir=C:\Users\donini\eclipse-workspace\control-version, maven.conf=C:\apache-maven-3.5.3\bin\../conf, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, sun.cpu.endian=little, env.ALLUSERSPROFILE=C:\ProgramData, env.MVN_HOME=C:\apache-maven-3.5.3\bin, env.CONEMUARGS=/Icon "C:\cmder\icons\cmder.ico" /Title Cmder /dir "C:\Users\donini", env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.USER-ALIASES=C:\cmder\config\user-aliases.cmd, env.PROCESSOR_ARCHITECTURE=AMD64, java.vm.version=25.161-b12, java.class.path=C:\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar, env.=::=::\, env.HOMEPATH=\Users\donini, env.EXEC_DIR=C:\Users\donini\eclipse-workspace\control-version, os.arch=amd64, maven.build.version=Apache Maven 3.5.3 (3383c37e1f9e9b3bc3df5050c29c8aff9f295297; 2018-02-24T16:49:05-03:00), env.SESSIONNAME=Console, sun.java.launcher=SUN_STANDARD, java.vm.specification.vendor=Oracle Corporation, file.separator=\, java.runtime.version=1.8.0_161-b12, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes, env.VERBOSE-OUTPUT=0 , env.CONEMUANSI=ON, maven.version=3.5.3, env.TEMP=C:\Users\donini\AppData\Local\Temp, user.country=BR, maven.home=C:\apache-maven-3.5.3\bin\.., java.vendor=Oracle Corporation, env.RUBY_HOME=C:\Ruby25-x64, env.CLASSWORLDS_JAR="C:\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar", env.CONEMUPALETTE=Monokai, java.specification.version=1.8, sun.arch.data.model=64}
+[INFO] [WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] [DEBUG] resource with targetPath null
+[INFO] directory C:\Users\donini\eclipse-workspace\control-version\src\test\resources
+[INFO] excludes []
+[INFO] includes []
+[INFO] [DEBUG] ignoreDelta true
+[INFO] [INFO] Copying 0 resource
+[INFO] [DEBUG] no use filter components
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ control-version ---
+[INFO] [DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.7.0, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[INFO] [DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile' with basic configurator -->
+[INFO] [DEBUG]   (f) basedir = C:\Users\donini\eclipse-workspace\control-version
+[INFO] [DEBUG]   (f) buildDirectory = C:\Users\donini\eclipse-workspace\control-version\target
+[INFO] [DEBUG]   (f) compilePath = [C:\Users\donini\eclipse-workspace\control-version\target\classes]
+[INFO] [DEBUG]   (f) compileSourceRoots = [C:\Users\donini\eclipse-workspace\control-version\src\test\java]
+[INFO] [DEBUG]   (f) compilerId = javac
+[INFO] [DEBUG]   (f) debug = true
+[INFO] [DEBUG]   (f) failOnError = true
+[INFO] [DEBUG]   (f) failOnWarning = false
+[INFO] [DEBUG]   (f) forceJavacCompilerUse = false
+[INFO] [DEBUG]   (f) fork = false
+[INFO] [DEBUG]   (f) generatedTestSourcesDirectory = C:\Users\donini\eclipse-workspace\control-version\target\generated-test-sources\test-annotations
+[INFO] [DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile {execution: default-testCompile}
+[INFO] [DEBUG]   (f) optimize = false
+[INFO] [DEBUG]   (f) outputDirectory = C:\Users\donini\eclipse-workspace\control-version\target\test-classes
+[INFO] [DEBUG]   (f) parameters = false
+[INFO] [DEBUG]   (f) project = MavenProject: br.com.control.version:control-version:0.0.11 @ C:\Users\donini\eclipse-workspace\control-version\pom.xml
+[INFO] [DEBUG]   (f) session = org.apache.maven.execution.MavenSession@4e4efc1b
+[INFO] [DEBUG]   (f) showDeprecation = false
+[INFO] [DEBUG]   (f) showWarnings = false
+[INFO] [DEBUG]   (f) skipMultiThreadWarning = false
+[INFO] [DEBUG]   (f) source = 1.8
+[INFO] [DEBUG]   (f) staleMillis = 0
+[INFO] [DEBUG]   (f) target = 1.8
+[INFO] [DEBUG]   (f) testPath = [C:\Users\donini\eclipse-workspace\control-version\target\test-classes, C:\Users\donini\eclipse-workspace\control-version\target\classes]
+[INFO] [DEBUG]   (f) useIncrementalCompilation = true
+[INFO] [DEBUG]   (f) verbose = false
+[INFO] [DEBUG] -- end configuration --
+[INFO] [DEBUG] Using compiler 'javac'.
+[INFO] [DEBUG] Adding C:\Users\donini\eclipse-workspace\control-version\target\generated-test-sources\test-annotations to test-compile source roots:
+[INFO]   C:\Users\donini\eclipse-workspace\control-version\src\test\java
+[INFO] [DEBUG] New test-compile source roots:
+[INFO]   C:\Users\donini\eclipse-workspace\control-version\src\test\java
+[INFO]   C:\Users\donini\eclipse-workspace\control-version\target\generated-test-sources\test-annotations
+[INFO] [DEBUG] CompilerReuseStrategy: reuseCreated
+[INFO] [DEBUG] useIncrementalCompilation enabled
+[INFO] [INFO] Nothing to compile - all classes are up to date
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ control-version ---
+[INFO] [DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=625777, ConflictMarker.markTime=235214, ConflictMarker.nodeCount=132, ConflictIdSorter.graphTime=834735, ConflictIdSorter.topsortTime=40843, ConflictIdSorter.conflictIdCount=27, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1606015, ConflictResolver.conflictItemCount=77, DefaultDependencyCollector.collectTime=172696276, DefaultDependencyCollector.transformTime=3374310}
+[INFO] [DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.12.4:
+[INFO] [DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[INFO] [DEBUG]    org.apache.maven.surefire:surefire-booter:jar:2.12.4:compile
+[INFO] [DEBUG]       org.apache.maven.surefire:surefire-api:jar:2.12.4:compile
+[INFO] [DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:2.12.4:compile
+[INFO] [DEBUG]       org.apache.commons:commons-lang3:jar:3.1:compile
+[INFO] [DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:1.3:compile
+[INFO] [DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.8:compile
+[INFO] [DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[INFO] [DEBUG]    org.apache.maven:maven-project:jar:2.0.9:compile
+[INFO] [DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[INFO] [DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[INFO] [DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[INFO] [DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[INFO] [DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[INFO] [DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[INFO] [DEBUG]          junit:junit:jar:3.8.1:test
+[INFO] [DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[INFO] [DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[INFO] [DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile
+[INFO] [DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[INFO] [DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[INFO] [DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[INFO] [DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[INFO] [DEBUG]       classworlds:classworlds:jar:1.1:compile
+[INFO] [DEBUG]    org.apache.maven:maven-toolchain:jar:2.0.9:compile
+[INFO] [DEBUG]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1:compile
+[INFO] [DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[INFO] [DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[INFO] [DEBUG]   Imported:  < maven.api
+[INFO] [DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[INFO] [DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.12.4
+[INFO] [DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.12.4
+[INFO] [DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.12.4
+[INFO] [DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:2.12.4
+[INFO] [DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.1
+[INFO] [DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.3
+[INFO] [DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.8
+[INFO] [DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[INFO] [DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1
+[INFO] [DEBUG] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[INFO] [DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test' with basic configurator -->
+[INFO] [DEBUG]   (s) basedir = C:\Users\donini\eclipse-workspace\control-version
+[INFO] [DEBUG]   (s) childDelegation = false
+[INFO] [DEBUG]   (s) classesDirectory = C:\Users\donini\eclipse-workspace\control-version\target\classes
+[INFO] [DEBUG]   (s) disableXmlReport = false
+[INFO] [DEBUG]   (s) enableAssertions = true
+[INFO] [DEBUG]   (s) forkMode = once
+[INFO] [DEBUG]   (s) junitArtifactName = junit:junit
+[INFO] [DEBUG]   (s) localRepository =       id: local
+[INFO]       url: file:///C:/Users/donini/.m2/repository/
+[INFO]    layout: default
+[INFO] snapshots: [enabled => true, update => always]
+[INFO]  releases: [enabled => true, update => always]
+[INFO] 
+[INFO] [DEBUG]   (f) parallelMavenExecution = false
+[INFO] [DEBUG]   (s) perCoreThreadCount = true
+[INFO] [DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.12.4:, org.apache.maven:maven-plugin-api=org.apache.maven:maven-plugin-api:jar:2.0.9:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.12.4:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.12.4:compile, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:2.12.4:compile, org.apache.commons:commons-lang3=org.apache.commons:commons-lang3:jar:3.1:compile, org.apache.maven.shared:maven-common-artifact-filters=org.apache.maven.shared:maven-common-artifact-filters:jar:1.3:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:3.0.8:compile, org.apache.maven:maven-artifact=org.apache.maven:maven-artifact:jar:2.0.9:compile, org.apache.maven:maven-project=org.apache.maven:maven-project:jar:2.0.9:compile, org.apache.maven:maven-settings=org.apache.maven:maven-settings:jar:2.0.9:compile, org.apache.maven:maven-profile=org.apache.maven:maven-profile:jar:2.0.9:compile, org.apache.maven:maven-model=org.apache.maven:maven-model:jar:2.0.9:compile, org.apache.maven:maven-artifact-manager=org.apache.maven:maven-artifact-manager:jar:2.0.9:compile, org.apache.maven:maven-plugin-registry=org.apache.maven:maven-plugin-registry:jar:2.0.9:compile, org.codehaus.plexus:plexus-container-default=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile, org.apache.maven:maven-core=org.apache.maven:maven-core:jar:2.0.9:compile, org.apache.maven:maven-plugin-parameter-documenter=org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile, org.apache.maven:maven-repository-metadata=org.apache.maven:maven-repository-metadata:jar:2.0.9:compile, org.apache.maven:maven-error-diagnostics=org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile, org.apache.maven:maven-plugin-descriptor=org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile, org.apache.maven:maven-monitor=org.apache.maven:maven-monitor:jar:2.0.9:compile, classworlds:classworlds=classworlds:classworlds:jar:1.1:compile, org.apache.maven:maven-toolchain=org.apache.maven:maven-toolchain:jar:2.0.9:compile, org.apache.maven.plugin-tools:maven-plugin-annotations=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1:compile}
+[INFO] [DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.HelpMojo', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:help'
+[INFO] role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test'
+[INFO] ---
+[INFO] [DEBUG]   (s) printSummary = true
+[INFO] [DEBUG]   (s) projectArtifactMap = {}
+[INFO] [DEBUG]   (s) redirectTestOutputToFile = false
+[INFO] [DEBUG]   (s) remoteRepositories = [      id: internal-repository
+[INFO]       url: http://nx.dasa.com.br:8081/repository/maven-public/
+[INFO]    layout: default
+[INFO]     proxy: proxy-sp2.dasa.net:3128
+[INFO] snapshots: [enabled => false, update => daily]
+[INFO]  releases: [enabled => true, update => never]
+[INFO] ]
+[INFO] [DEBUG]   (s) reportFormat = brief
+[INFO] [DEBUG]   (s) reportsDirectory = C:\Users\donini\eclipse-workspace\control-version\target\surefire-reports
+[INFO] [DEBUG]   (s) runOrder = filesystem
+[INFO] [DEBUG]   (s) skip = false
+[INFO] [DEBUG]   (s) skipTests = false
+[INFO] [DEBUG]   (s) testClassesDirectory = C:\Users\donini\eclipse-workspace\control-version\target\test-classes
+[INFO] [DEBUG]   (s) testFailureIgnore = false
+[INFO] [DEBUG]   (s) testNGArtifactName = org.testng:testng
+[INFO] [DEBUG]   (s) testSourceDirectory = C:\Users\donini\eclipse-workspace\control-version\src\test\java
+[INFO] [DEBUG]   (s) trimStackTrace = true
+[INFO] [DEBUG]   (s) useFile = true
+[INFO] [DEBUG]   (s) useManifestOnlyJar = true
+[INFO] [DEBUG]   (s) useSystemClassLoader = true
+[INFO] [DEBUG]   (s) useUnlimitedThreads = false
+[INFO] [DEBUG]   (s) workingDirectory = C:\Users\donini\eclipse-workspace\control-version
+[INFO] [DEBUG]   (s) project = MavenProject: br.com.control.version:control-version:0.0.11 @ C:\Users\donini\eclipse-workspace\control-version\pom.xml
+[INFO] [DEBUG]   (s) session = org.apache.maven.execution.MavenSession@4e4efc1b
+[INFO] [DEBUG] -- end configuration --
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ control-version ---
+[INFO] [DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=373789, ConflictMarker.markTime=111590, ConflictMarker.nodeCount=74, ConflictIdSorter.graphTime=180513, ConflictIdSorter.topsortTime=46678, ConflictIdSorter.conflictIdCount=28, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1213628, ConflictResolver.conflictItemCount=70, DefaultDependencyCollector.collectTime=59431331, DefaultDependencyCollector.transformTime=1963029}
+[INFO] [DEBUG] org.apache.maven.plugins:maven-jar-plugin:jar:2.4:
+[INFO] [DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[INFO] [DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[INFO] [DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[INFO] [DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[INFO] [DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[INFO] [DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[INFO] [DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[INFO] [DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[INFO] [DEBUG]          junit:junit:jar:3.8.1:compile
+[INFO] [DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[INFO] [DEBUG]    org.apache.maven:maven-model:jar:2.0.6:runtime
+[INFO] [DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[INFO] [DEBUG]    org.apache.maven:maven-archiver:jar:2.5:compile
+[INFO] [DEBUG]       org.apache.maven:maven-core:jar:2.0.6:compile
+[INFO] [DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[INFO] [DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[INFO] [DEBUG]             org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[INFO] [DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[INFO] [DEBUG]          commons-cli:commons-cli:jar:1.0:compile
+[INFO] [DEBUG]          org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[INFO] [DEBUG]          org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[INFO] [DEBUG]          org.apache.maven:maven-monitor:jar:2.0.6:compile
+[INFO] [DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.15:compile
+[INFO] [DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.1:compile
+[INFO] [DEBUG]       org.codehaus.plexus:plexus-io:jar:2.0.2:compile
+[INFO] [DEBUG]    commons-lang:commons-lang:jar:2.1:compile
+[INFO] [DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[INFO] [DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[INFO] [DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[INFO] [DEBUG]   Imported:  < maven.api
+[INFO] [DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[INFO] [DEBUG]   Included: org.apache.maven.plugins:maven-jar-plugin:jar:2.4
+[INFO] [DEBUG]   Included: junit:junit:jar:3.8.1
+[INFO] [DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.5
+[INFO] [DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[INFO] [DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[INFO] [DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[INFO] [DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[INFO] [DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.15
+[INFO] [DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.1
+[INFO] [DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.2
+[INFO] [DEBUG]   Included: commons-lang:commons-lang:jar:2.1
+[INFO] [DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[INFO] [DEBUG] Configuring mojo org.apache.maven.plugins:maven-jar-plugin:2.4:jar from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-jar-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[INFO] [DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-jar-plugin:2.4:jar' with basic configurator -->
+[INFO] [DEBUG]   (f) classesDirectory = C:\Users\donini\eclipse-workspace\control-version\target\classes
+[INFO] [DEBUG]   (f) defaultManifestFile = C:\Users\donini\eclipse-workspace\control-version\target\classes\META-INF\MANIFEST.MF
+[INFO] [DEBUG]   (f) finalName = control-version-0.0.11
+[INFO] [DEBUG]   (f) forceCreation = false
+[INFO] [DEBUG]   (f) outputDirectory = C:\Users\donini\eclipse-workspace\control-version\target
+[INFO] [DEBUG]   (f) project = MavenProject: br.com.control.version:control-version:0.0.11 @ C:\Users\donini\eclipse-workspace\control-version\pom.xml
+[INFO] [DEBUG]   (f) session = org.apache.maven.execution.MavenSession@4e4efc1b
+[INFO] [DEBUG]   (f) skipIfEmpty = false
+[INFO] [DEBUG]   (f) useDefaultManifestFile = false
+[INFO] [DEBUG] -- end configuration --
+[INFO] [DEBUG] isUp2date: false (Destination C:\Users\donini\eclipse-workspace\control-version\target\control-version-0.0.11.jar not found.)
+[INFO] [INFO] Building jar: C:\Users\donini\eclipse-workspace\control-version\target\control-version-0.0.11.jar
+[INFO] [DEBUG] adding directory META-INF/
+[INFO] [DEBUG] adding entry META-INF/MANIFEST.MF
+[INFO] [DEBUG] adding directory br/
+[INFO] [DEBUG] adding directory br/com/
+[INFO] [DEBUG] adding directory br/com/control/
+[INFO] [DEBUG] adding directory br/com/control/version/
+[INFO] [DEBUG] adding entry br/com/control/version/Main.class
+[INFO] [DEBUG] adding directory META-INF/maven/
+[INFO] [DEBUG] adding directory META-INF/maven/br.com.control.version/
+[INFO] [DEBUG] adding directory META-INF/maven/br.com.control.version/control-version/
+[INFO] [DEBUG] adding entry META-INF/maven/br.com.control.version/control-version/pom.xml
+[INFO] [DEBUG] adding entry META-INF/maven/br.com.control.version/control-version/pom.properties
+[INFO] [INFO] ------------------------------------------------------------------------
+[INFO] [INFO] BUILD SUCCESS
+[INFO] [INFO] ------------------------------------------------------------------------
+[INFO] [INFO] Total time: 4.469 s
+[INFO] [INFO] Finished at: 2018-05-25T15:01:39-03:00
+[INFO] [INFO] ------------------------------------------------------------------------
+[INFO] Checking in modified POMs...
+[INFO] Executing: cmd.exe /X /C "git add -- pom.xml"
+[INFO] Working directory: C:\Users\donini\eclipse-workspace\control-version
+[INFO] Executing: cmd.exe /X /C "git status --porcelain"
+[INFO] Working directory: C:\Users\donini\eclipse-workspace\control-version
+[DEBUG] M  pom.xml
+[DEBUG] ?? output.log
+[DEBUG] ?? pom.xml.releaseBackup
+[DEBUG] ?? release.properties
+[INFO] Executing: cmd.exe /X /C "git commit --verbose -F C:\Users\donini\AppData\Local\Temp\maven-scm-1674441606.commit pom.xml"
+[INFO] Working directory: C:\Users\donini\eclipse-workspace\control-version
+[INFO] Executing: cmd.exe /X /C "git symbolic-ref HEAD"
+[INFO] Working directory: C:\Users\donini\eclipse-workspace\control-version
+[INFO] Executing: cmd.exe /X /C "git push https://github.com/cesar-donini/control-version.git master:master"
+[INFO] Working directory: C:\Users\donini\eclipse-workspace\control-version
+[INFO] Tagging release with the label 0.0.11...
+[DEBUG] ScmTagPhase :: scmTagParameters remotingTag true
+[DEBUG] ScmTagPhase :: scmTagParameters scmRevision null
+[DEBUG] ScmTagPhase :: fileSet  basedir = C:\Users\donini\eclipse-workspace\control-version; files = []
+[INFO] Executing: cmd.exe /X /C "git tag -F C:\Users\donini\AppData\Local\Temp\maven-scm-1594526234.commit 0.0.11"
+[INFO] Working directory: C:\Users\donini\eclipse-workspace\control-version
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 20.101 s
+[INFO] Finished at: 2018-05-25T15:01:49-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-release-plugin:2.5.3:prepare (default-cli) on project control-version: Unable to tag SCM
+[ERROR] Provider message:
+[ERROR] The git-tag command failed.
+[ERROR] Command output:
+[ERROR] fatal: tag '0.0.11' already exists
+[ERROR] 
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-release-plugin:2.5.3:prepare (default-cli) on project control-version: Unable to tag SCM
+Provider message:
+The git-tag command failed.
+Command output:
+fatal: tag '0.0.11' already exists
+
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:213)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:154)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:146)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:956)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:290)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:194)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:289)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:229)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:415)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:356)
+Caused by: org.apache.maven.plugin.MojoFailureException: Unable to tag SCM
+Provider message:
+The git-tag command failed.
+Command output:
+fatal: tag '0.0.11' already exists
+
+    at org.apache.maven.plugins.release.PrepareReleaseMojo.prepareRelease (PrepareReleaseMojo.java:294)
+    at org.apache.maven.plugins.release.PrepareReleaseMojo.execute (PrepareReleaseMojo.java:240)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:208)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:154)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:146)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:956)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:290)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:194)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:289)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:229)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:415)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:356)
+Caused by: org.apache.maven.shared.release.scm.ReleaseScmCommandException: Unable to tag SCM
+Provider message:
+The git-tag command failed.
+Command output:
+fatal: tag '0.0.11' already exists
+
+    at org.apache.maven.shared.release.phase.ScmTagPhase.execute (ScmTagPhase.java:136)
+    at org.apache.maven.shared.release.DefaultReleaseManager.prepare (DefaultReleaseManager.java:234)
+    at org.apache.maven.shared.release.DefaultReleaseManager.prepare (DefaultReleaseManager.java:169)
+    at org.apache.maven.shared.release.DefaultReleaseManager.prepare (DefaultReleaseManager.java:146)
+    at org.apache.maven.shared.release.DefaultReleaseManager.prepare (DefaultReleaseManager.java:107)
+    at org.apache.maven.plugins.release.PrepareReleaseMojo.prepareRelease (PrepareReleaseMojo.java:286)
+    at org.apache.maven.plugins.release.PrepareReleaseMojo.execute (PrepareReleaseMojo.java:240)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:208)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:154)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:146)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:956)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:290)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:194)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:289)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:229)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:415)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:356)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[0m[0m
