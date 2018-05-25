@@ -2,11 +2,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.control.version</groupId>
 	<artifactId>control-version</artifactId>
-	<version>0.0.5</version>
+	<version>0.0.6-SNAPSHOT</version>
 	<scm>
 		<url>https://github.com/cesar-donini/control-version</url>
 		<connection>scm:git:https://github.com/cesar-donini/control-version.git</connection>
-	    <tag>0.0.5</tag>
+	    <tag>${releaseVersion}</tag>
 	</scm>
 	
 	<distributionManagement>
