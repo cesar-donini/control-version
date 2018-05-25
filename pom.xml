@@ -6,7 +6,7 @@
 	<scm>
 		<url>https://github.com/cesar-donini/control-version</url>
 		<connection>scm:git:https://github.com/cesar-donini/control-version.git</connection>
-	    <tag>0.0.7-SNAPSHOT</tag>
+	    <tag>0.0.8-SNAPSHOT</tag>
 	</scm>
 	
 	<distributionManagement>
