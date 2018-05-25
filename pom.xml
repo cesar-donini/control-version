@@ -9,6 +9,13 @@
 	    <tag>${releaseVersion}</tag>
 	</scm>
 	
+	<distributionManagement>
+		<repository>
+			<id>nexus-releases</id>
+			<url>http://localhost:8081/repository/api-release</url>
+		</repository>
+	</distributionManagement>
+	
 	<build>
 		<plugins>
 			<plugin>
