@@ -6,13 +6,13 @@
 	<scm>
 		<url>https://github.com/cesar-donini/control-version</url>
 		<connection>scm:git:https://github.com/cesar-donini/control-version.git</connection>
-	    <tag>0.0.11</tag>
+	    <tag>${releaseVersion}</tag>
 	</scm>
 	
 	<distributionManagement>
 		<repository>
 			<id>nexus-releases</id>
-			<url>http://localhost:8081/repository/api-release</url>
+			<url>http://localhost:8081/repository/api-release/</url>
 		</repository>
 	</distributionManagement>
 	
